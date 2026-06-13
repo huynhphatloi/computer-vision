@@ -1,0 +1,39 @@
+# ── Datasets & collected images ────────────────────────────────────────────
+# Input photos / datasets are large and not meant to live in git.
+dataset/
+datasets/
+img/
+img2/
+**/img/
+**/img2/
+**/dataset/
+
+# Generated outputs
+outputs/
+outputs2/
+**/outputs/
+**/outputs2/
+
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+*.gif
+*.JPG
+*.JPEG
+*.PNG
+
+# Keep the exercise/assignment spec images
+!**/exercise.png
+!exercise.png
+
+# ── Python ─────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# ── OS ─────────────────────────────────────────────────────────────────────
+.DS_Store
